@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+main>div.wrapper {
+    width: 45vw;
+    background: lightgoldenrodyellow;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-bottom: 2.844141069397042vh;
+}
+
+main>div.wrapper>h1 {
+    width: 45vw;
+    text-align: center;
+}
+
+main>div.wrapper>div.user {
+    width: 20vw;
+    height: 15vh;
+    text-align: center;
+    background: midnightblue;
+    margin-top: 1.422070534698521vh;
+    margin-left: 0.9765625vw;
+}
+
+main>div.wrapper>div.user>h3 {
+    color: white;
+}

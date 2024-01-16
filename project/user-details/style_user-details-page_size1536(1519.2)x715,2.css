@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+}
+
+main {
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1.422070534698521vh;
+}
+
+.block-info-user {
+    background: white;
+    width: 30vw;
+    border: 2px solid black;
+    margin: 1.422070534698521vh 0 0 0.9765625vw;
+}
+
+main>div>p.user-info {
+    margin: 1.422070534698521vh 0 1.422070534698521vh 0.6509611441293069vw;
+}
+
+p.element-firstObj {
+    margin-left: 1.302083333333333vw;
+}
+
+p.element-secondObj {
+    margin-left: 1.953125vw;
+}
+
+main>button {
+    border-radius: 20px;
+    margin-top: 1.422070534698521vh;
+}
+
+main>div.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 1.422070534698521vh;
+}
+
+
+main>div.wrapper>div.post {
+    width: 18.5vw;
+    height: 24vh;
+    border: black solid 1px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+main>div.wrapper>div.post>h4 {
+    margin-left: 1.302083333333333vw;
+    margin-right: 1.302083333333333vw;
+    margin-bottom: 0;
+}

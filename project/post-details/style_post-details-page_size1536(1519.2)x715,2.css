@@ -1,0 +1,86 @@
+body {
+    margin: 0
+}
+
+main>section.block-post {
+    padding: 1.422070534698521vh 0 1.422070534698521vh 0;
+    background: lavender;
+}
+
+main>section>div.post {
+    background: white;
+    width: 22vw;
+    /*height: 45vh;*/
+    margin-left: 0.9765625vw;
+    margin-top: 1.422070534698521vh;
+    border: 1px solid black;
+    padding-bottom: 1.422070534698521vh;
+}
+
+main>section.block-post>div.post>p {
+    margin-left: 0.9765625vw;
+    margin-right: 0.9765625vw;
+}
+
+main>section.block-post>div.post>h4 {
+    margin-left: 0.9765625vw;
+    margin-right: 0.9765625vw;
+}
+
+main>section.block-post>div.post>div.container-button {
+    display: flex;
+    justify-content: center;
+}
+
+main>section.block-comments {
+    padding-top: 1.422070534698521vh;
+    background: darkslategrey;
+}
+
+main>section.block-comments>h1 {
+    color: white;
+    text-align: center;
+    margin-top: 0;
+}
+
+main>section.block-comments>div.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1.422070534698521vh;
+    gap: 10px;
+}
+
+main>section.block-comments>div.wrapper>div.comment {
+    width: 22vw;
+    height: 45vh;
+    background: darkgrey;
+    margin: 1.422070534698521vh 0.9765625vw 0 0.9765625vw;
+    border: 1px solid black;
+}
+
+main>section.block-comments>div.wrapper>div.comment>p {
+    margin-left: 0.9765625vw;
+}
+
+span {
+    display: flex;
+}
+
+span.name-paragraphs>p {
+    margin: 0 0 1.422070534698521vh 0.9765625vw;
+}
+
+span.name-paragraphs>p.name {
+    color: red;
+    margin: 0 0.9765625vw 1.422070534698521vh 0.32552083vw;
+}
+
+span.email-paragraphs>p {
+    margin: 1.422070534698521vh 0 0 0.9765625vw;
+}
+
+span.email-paragraphs>p.email {
+    color: blue;
+    margin: 1.422070534698521vh 0.9765625vw 0 0.32552083vw;
+}
